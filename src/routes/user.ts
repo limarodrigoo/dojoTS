@@ -3,8 +3,12 @@ import { UserController } from '../controllers';
 
 const router = Router();
 
-const userController: UserController = new UserController();
+const userController = new UserController();
 
-router.get('/', userController.exampleMethod);
+router.get(
+  '/',
+  async (req, res) =>
+    await userController.exampleMethod(req, res),
+);
 
 export default router;
