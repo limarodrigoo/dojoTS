@@ -1,5 +1,5 @@
-import UserService from "./user";
+import BlogPostService from "./BlogPost";
 
 export {
-    UserService,
+    BlogPostService,
 };

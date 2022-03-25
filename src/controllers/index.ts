@@ -1,5 +1,5 @@
-import UserController from "./user";
+import BlogPostControler from "./BlogPost";
 
 export {
-    UserController,
+    BlogPostControler,
 };

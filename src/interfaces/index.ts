@@ -1,5 +1,5 @@
-import IUser from "./IUser";
+import BlogPost from "./BlogPost";
 
 export {
-    IUser,
+    BlogPost,
 };

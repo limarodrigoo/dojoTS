@@ -1,5 +1,5 @@
-import UserModel from './User';
+import BlogPostModel from './BlogPost';
 
 export {
-    UserModel,
+    BlogPostModel,
 };
